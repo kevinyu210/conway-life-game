@@ -2,7 +2,17 @@
 
 My implementation of Conway's Game Of Life using Python. This implementation has some basic functionalities that allow you to interact with the cells.
 
-## Functionalities
+## How it works
+
+### Game of Life rules
+
+* Neighbor = Any of the 8 cells surrounding a single cell
+* Any live cell with fewer than two live neighbours dies, as if by underpopulation.
+* Any live cell with two or three live neighbours lives on to the next generation.
+* Any live cell with more than three live neighbours dies, as if by overpopulation.
+* Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
+
+### Functionalities
 
 * Play - Resumes activity of all cells
 * Pause - Pauses activity of all cells
