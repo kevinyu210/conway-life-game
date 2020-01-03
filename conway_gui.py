@@ -22,9 +22,9 @@ class GameScreen():
         self.main_canvas = tkinter.Canvas(self.root, width = self.grid_pixel_width -1, height = self.grid_pixel_height -1, bg = "black")
         self.main_canvas.pack()
         # Initialize buttons
-        step_button = tkinter.Button(self.root, text = "Step", command = self.step)
-        play_button = tkinter.Button(self.root, text = "Play", command = self.start_living)
-        pause_button = tkinter.Button(self.root, text = "Pause", command = self.pause_living)
+        step_button = tkinter.Button(self.root, text = "Step", command = self.step, fg = "black", bg = "white")
+        play_button = tkinter.Button(self.root, text = "Play", command = self.start_living, fg = "black", bg = "white")
+        pause_button = tkinter.Button(self.root, text = "Pause", command = self.pause_living, fg = "black", bg = "white")
         play_button.pack()
         pause_button.pack()
         step_button.pack()
